@@ -7,9 +7,9 @@ public class RotateMatrix90degreeFunction {
 		// Flip the matrix symmetrically
 		// 123, 456, 789
 		// 147, 258, 369
+		// Swap them
 		for(int i = 0; i < matrix.length; i++){
 			for(int j = i; j< matrix.length; j++){
-				// Temp to keep track of matrix that is getting replaced
 				temp = matrix[i][j];
 				
 				// [0][1] = [1][0]
