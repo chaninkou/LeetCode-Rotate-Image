@@ -1,4 +1,4 @@
-package matrix2D;
+package leetcode48;
 
 public class RotateMatrix90degreeFunction {
 	public void rotate(int[][] matrix){
