@@ -12,6 +12,6 @@ public class Main {
 		
 		solution.rotate(matrix);
 		
-		System.out.println("After rotate: " + Arrays.deepToString(matrix));
+		System.out.println("Final rotate: " + Arrays.deepToString(matrix));
 	}
 }
