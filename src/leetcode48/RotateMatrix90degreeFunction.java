@@ -1,6 +1,7 @@
 package leetcode48;
 
 public class RotateMatrix90degreeFunction {
+	// time O(n + m) where n is i and m is j
 	public void rotate(int[][] matrix){
 		int temp, secondTemp = 1;
 		
