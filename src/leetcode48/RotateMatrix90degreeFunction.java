@@ -6,8 +6,8 @@ public class RotateMatrix90degreeFunction {
 		int temp, secondTemp = 1;
 		
 		// Flip the matrix symmetrically
-		// 123, 456, 789
-		// 147, 258, 369
+		// ex: 123, 456, 789
+		// result: 147, 258, 369
 		// Swap them
 		for(int i = 0; i < matrix.length; i++){
 			for(int j = i; j< matrix.length; j++){
